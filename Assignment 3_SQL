@@ -1,0 +1,12 @@
+CREATE TABLE College(
+    College_id INT NOT NULL UNIQUE,
+    College_Name VARCHAR(100) NOT NULL,
+    Std_RollNo INT NOT NULL,
+    Std_Name VARCHAR(100) NOT NULL
+);
+INSERT INTO College(College_id, College_Name, Std_RollNo, Std_Name)
+VALUES
+(101,'ABC College',1,'Anitha'),
+(102,'XYZ College',2,'Priya'),
+(103,'DEF College',3,'Kavya');
+SELECT * FROM College;
